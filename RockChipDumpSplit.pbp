@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.42 LTS (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="RockchipDumpSplit"/>
+  </section>
+  <section name="data">
+    <explorer view="..\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2016-08-07 18:33" user="roland" host="MELRO-PC"/>
+  </section>
+  <section name="files">
+    <file name="Include.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="b3d1fc5f3d5938ef3e6a2d19aba5f659"/>
+    </file>
+    <file name="Include_Console.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="b73abfd56a886d37c5e4b35dd0dc4c95"/>
+    </file>
+    <file name="Main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="eace31eb322dc9481a356c57693c9ec2"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="Main.pb"/>
+      <outputfile value="RockchipDumpSplit.exe"/>
+      <executable value="RockchipDumpSplit.exe"/>
+      <options unicode="1" thread="1" xpskin="1" user="1" onerror="1" debug="1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="324"/>
+      <buildcount enable="1" value="34"/>
+      <execonstant enable="1"/>
+    </target>
+  </section>
+</project>
